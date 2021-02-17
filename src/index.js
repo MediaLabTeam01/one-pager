@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import AboutTeamMembers from './components/aboutTeamMembers/aboutTeamMembers'
+import TopHeader from './components/topHeader/topHeader'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TopHeader />
+    <AboutTeamMembers />
   </React.StrictMode>,
   document.getElementById('root')
 );
