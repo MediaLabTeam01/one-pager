@@ -1,0 +1,9 @@
+.deliv-title,
+.del-title {
+  text-align: center;
+}
+
+.block-container {
+  display: flex;
+  flex-direction: row;
+}

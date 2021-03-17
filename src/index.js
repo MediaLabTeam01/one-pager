@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import AboutTeamMembers from './components/aboutTeamMembers/aboutTeamMembers'
 import NavBar from './components/navbar/navBar'
+import Deliverables from './components/deliverablesBlock/deliverables'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <NavBar />
     <AboutTeamMembers />
+    <Deliverables />
   </React.StrictMode>,
   document.getElementById('root')
 );
