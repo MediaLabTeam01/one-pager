@@ -3,7 +3,6 @@
 }
 
 .block-container {
-  margin-left: 12vw;
-  width: 75vw;
   display: flex;
+  flex-direction: row;
 }
