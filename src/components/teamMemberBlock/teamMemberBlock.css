@@ -1,0 +1,23 @@
+.tm-block {
+  width: 10%;
+  flex: 1;
+}
+.tm-image {
+  width: 128px;
+  height: 128px;
+}
+
+.tm-info {
+  display: flex;
+}
+
+.tm-name {
+  flex: 1;
+}
+
+.tm-course {
+  flex: 1;
+  width: 1em;
+  background-color: orange;
+  border-radius: 25px;
+}

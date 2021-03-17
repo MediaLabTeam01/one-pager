@@ -1,13 +1,16 @@
+import './aboutTeamMembers.css';
+import TeamMemberBlock from '../teamMemberBlock/teamMemberBlock'
+
 function AboutTeamMembers() {
     return (
-      <div className="about-team-members">
-          <h3>Dit product is bedacht, ontworpen en gemaakt door:</h3>
-          <ul>
-              <li> Dion van Beelen (CMGT) </li>
-              <li> Iris Verbaas (CMGT) </li>
-              <li> Kalle van Lent (CMD) </li>
-              <li> Wessel Bakker (CMGT) </li>
-          </ul>
+      <div className="atm">
+          <h3 className="atm-title">Ontmoet het team</h3>
+          <div className="block-container">
+              <TeamMemberBlock name={'Dion'} course={'CMGT'} />
+              <TeamMemberBlock name={'Kalle'} course={'CMD'}/>
+              <TeamMemberBlock name={'Iris'} course={'CMD'}/>
+              <TeamMemberBlock name={'Wessel'} course={'CMGT'}/>
+          </div>
       </div>
     );
   }

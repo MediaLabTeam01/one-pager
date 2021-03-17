@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import AboutTeamMembers from './components/aboutTeamMembers/aboutTeamMembers'
-import TopHeader from './components/topHeader/topHeader'
+import NavBar from './components/navbar/navBar'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TopHeader />
+    <NavBar />
     <AboutTeamMembers />
   </React.StrictMode>,
   document.getElementById('root')
