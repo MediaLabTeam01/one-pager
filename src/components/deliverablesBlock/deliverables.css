@@ -1,9 +1,14 @@
-.deliv-title,
+.deliv-title {
+  text-align: center;
+  color: #e97c57;
+  margin-top: 0;
+  padding-top: 5vh;
+}
+
 .del-title {
   text-align: center;
   color: #e97c57;
 }
-
 .block-container {
   display: flex;
   flex-direction: row;
@@ -14,9 +19,13 @@
 }
 
 .del {
-  background-color: #4a766c;
-  height: 28vh;
+  background-color: #a3d2b6;
+  height: 48vh;
   border-radius: 8pt;
   margin: auto;
   width: 75%;
+}
+
+.deliv {
+  background-color: #eff7ef;
 }

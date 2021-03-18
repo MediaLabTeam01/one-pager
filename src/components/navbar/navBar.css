@@ -8,5 +8,35 @@ h2 {
 }
 
 .navbar {
+  height: 10vh;
+  position: relative;
   background-color: #4a766c;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-block {
+  flex: 1;
+}
+
+.team-name {
+  color: white;
+  display: inline;
+  margin-right: 5vw;
+}
+
+.right-block {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  float: right;
+}
+
+.navBarButton {
+  text-align: right;
+  color: white;
+  display: inline;
+  margin-right: 5vw;
 }

@@ -1,8 +1,14 @@
 .atm-title {
   text-align: center;
+  margin-top: 0;
+  padding-top: 5vh;
 }
 
 .block-container {
   display: flex;
   flex-direction: row;
+}
+
+.atm {
+  background-color: #eff7ef;
 }
