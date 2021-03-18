@@ -1,6 +1,7 @@
 .deliv-title,
 .del-title {
   text-align: center;
+  color: #e97c57;
 }
 
 .block-container {
@@ -13,7 +14,7 @@
 }
 
 .del {
-  background-color: darkgreen;
+  background-color: #4a766c;
   height: 28vh;
   border-radius: 8pt;
   margin: auto;

@@ -13,8 +13,12 @@
   flex-direction: row;
 }
 
+h3 {
+  color: #e97c57;
+}
+
 .tm-course {
-  background-color: orange;
+  background-color: #e97c57;
   color: white;
   padding: 2%;
   margin-left: 4vw;
