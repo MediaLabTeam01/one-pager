@@ -17,7 +17,7 @@
 
 .del {
   background-color: #a3d2b6;
-  height: 48vh;
+  height: 54vh;
   border-radius: 8pt;
   margin: auto;
   width: 75%;
@@ -27,6 +27,10 @@
   background-color: #eff6ef;
 }
 
+.del-image {
+  width: 100%;
+  height: 100%;
+}
 @media only screen and (max-width: 600px) {
   .del-block {
     margin: auto;

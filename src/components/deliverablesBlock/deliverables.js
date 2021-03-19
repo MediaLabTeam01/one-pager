@@ -6,8 +6,8 @@ function Deliverables() {
       <div id="deliverable" className="deliv">
           <h3 className="deliv-title">Deliverables</h3>
           <div className="block-container">
-              <DeliverableBlock title={'Design Principles'} />
-              <DeliverableBlock title={'Onderzoeks richtingen'} />
+              <DeliverableBlock title={'Design Principles'} image={'designprinciples.png'} />
+              <DeliverableBlock title={'Onderzoeks richtingen'} image={'o-inzichten.png'} />
           </div>
       </div>
     );
