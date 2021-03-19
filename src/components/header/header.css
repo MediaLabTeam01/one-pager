@@ -10,10 +10,22 @@
 }
 
 .title {
-  font-family: Avenir-Black;
+  font-family: AvenirLTS-Medium;
+  font-size: 32pt;
+  text-align: left;
   color: #eff6ef;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.scheveningen {
+  font-family: Avenir-Heavy;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-image {
+    height: 75vh;
+  }
 }
