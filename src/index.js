@@ -13,7 +13,9 @@ ReactDOM.render(
     <NavBar />
     <AboutTeamMembers />
     <Deliverables />
+    <img className="divider-wave" src={process.env.PUBLIC_URL + '/wave_light.png'} alt={'lightwave'}/>
     <Concept />
+    <img className="divider-wave" src={process.env.PUBLIC_URL + '/wave_dark.png'} alt={'darkwave'}/>
     <Contact />
   </React.StrictMode>,
   document.getElementById('root')

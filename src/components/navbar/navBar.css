@@ -49,3 +49,7 @@ h2 {
   display: inline;
   margin-right: 5vw;
 }
+
+.bm-burger-button {
+  float: right;
+}
