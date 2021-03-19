@@ -20,10 +20,21 @@ h3 {
   color: #e97c57;
 }
 
+.tm-name {
+  color: #4a766c;
+}
+
 .tm-course {
   background-color: #e97c57;
   color: white;
   padding: 2%;
   margin-left: 4vw;
   border-radius: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .tm-block {
+    margin: auto;
+    width: 35%;
+  }
 }

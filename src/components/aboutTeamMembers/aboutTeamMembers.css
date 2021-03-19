@@ -12,3 +12,11 @@
 .atm {
   background-color: #eff7ef;
 }
+
+@media only screen and (max-width: 600px) {
+  .block-container {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw;
+  }
+}

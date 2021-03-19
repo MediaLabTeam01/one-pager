@@ -9,19 +9,28 @@ h2 {
 
 .navbar {
   height: 10vh;
+  width: 100vw;
   position: relative;
   background-color: #4a766c;
   display: flex;
   flex-direction: row;
+  overflow: hidden;
 }
 
 .left-block {
-  flex: 1;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  float: right;
 }
 
 .team-name {
+  text-align: right;
   color: white;
   display: inline;
+  padding-left: 2vw;
   margin-right: 5vw;
 }
 
@@ -29,7 +38,7 @@ h2 {
   margin: 0;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 65%;
   transform: translateY(-50%);
   float: right;
 }

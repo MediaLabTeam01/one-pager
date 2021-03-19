@@ -9,10 +9,6 @@
   text-align: center;
   color: #e97c57;
 }
-.block-container {
-  display: flex;
-  flex-direction: row;
-}
 
 .del-block {
   flex: 1;
@@ -28,4 +24,11 @@
 
 .deliv {
   background-color: #eff7ef;
+}
+
+@media only screen and (max-width: 600px) {
+  .del-block {
+    margin: auto;
+    width: 75%;
+  }
 }
