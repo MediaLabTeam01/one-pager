@@ -6,11 +6,13 @@ import NavBar from './components/navbar/navBar'
 import Deliverables from './components/deliverablesBlock/deliverables'
 import Concept from './components/conceptBlock/conceptBlock'
 import Contact from './components/contact/contactBlock'
+import Header from './components/header/header'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <NavBar />
+    <Header />
     <AboutTeamMembers />
     <Deliverables />
     <img className="divider-wave" src={process.env.PUBLIC_URL + '/wave_light.png'} alt={'lightwave'}/>
