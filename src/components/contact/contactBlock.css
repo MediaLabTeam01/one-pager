@@ -1,0 +1,14 @@
+.con-title {
+  text-align: center;
+  color: #e97c57;
+}
+
+.con-content {
+  height: 25vh;
+}
+
+.con-block {
+  margin-top: 0;
+  padding-top: 5vh;
+  background-color: #eff7ef;
+}

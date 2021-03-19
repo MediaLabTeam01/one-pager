@@ -4,6 +4,8 @@ import './index.css';
 import AboutTeamMembers from './components/aboutTeamMembers/aboutTeamMembers'
 import NavBar from './components/navbar/navBar'
 import Deliverables from './components/deliverablesBlock/deliverables'
+import Concept from './components/conceptBlock/conceptBlock'
+import Contact from './components/contact/contactBlock'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -11,6 +13,8 @@ ReactDOM.render(
     <NavBar />
     <AboutTeamMembers />
     <Deliverables />
+    <Concept />
+    <Contact />
   </React.StrictMode>,
   document.getElementById('root')
 );
