@@ -19,6 +19,7 @@ a {
 
 a:hover {
   background-color: #e97c57;
+  font-family: Avenir-Heavy;
   padding: 8px;
   border-radius: 25px;
   text-decoration: none;

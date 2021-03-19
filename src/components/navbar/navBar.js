@@ -6,8 +6,8 @@ import DeviceIdentifier from 'react-device-identifier';
 function NavBar() {
     return (
       <div className="navbar">
-        <img className="logo" src={process.env.PUBLIC_URL + '/logo.png'} alt={'BrainGem Logo'}/>
         <div className="left-block">
+            <img className="logo" src={process.env.PUBLIC_URL + '/logo.png'} alt={'BrainGem Logo'}/>
             <p className="team-name">BrainGem</p>
         </div>
         <DeviceIdentifier isDesktop={true}>
@@ -19,12 +19,12 @@ function NavBar() {
           </div>
         </DeviceIdentifier>
         <DeviceIdentifier isMobile={true} isTablet={true}>
-          <Menu right htmlClassName={"hamburger-menu"} >
-              <a href="#about-team" className="navBarButton">Team</a>
-              <a href="#deliverable" className="navBarButton">Deliverables</a>
-              <a href="#concept" className="navBarButton">Concept</a>
-              <a href="#contact" className="navBarButton">Contact</a>
-          </Menu>
+            <Menu right={true} htmlClassName={"hamburger-menu"} >
+                <a href="#about-team" className="navBarButton">Team</a>
+                <a href="#deliverable" className="navBarButton">Deliverables</a>
+                <a href="#concept" className="navBarButton">Concept</a>
+                <a href="#contact" className="navBarButton">Contact</a>
+            </Menu>
         </DeviceIdentifier>
       </div>
     );
