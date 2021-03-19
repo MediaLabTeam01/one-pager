@@ -3,7 +3,7 @@ import DeliverableBlock from './deliverableBlock'
 
 function Deliverables() {
     return (
-      <div className="deliv">
+      <div id="deliverable" className="deliv">
           <h3 className="deliv-title">Deliverables</h3>
           <div className="block-container">
               <DeliverableBlock title={'Design Principles'} />

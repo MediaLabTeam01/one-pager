@@ -3,7 +3,7 @@ import TeamMemberBlock from '../teamMemberBlock/teamMemberBlock'
 
 function AboutTeamMembers() {
     return (
-      <div className="atm">
+      <div id="about-team" className="atm">
           <h3 className="atm-title">Ontmoet het team</h3>
           <div className="block-container">
               <TeamMemberBlock name={'Dion'} course={'CMGT'} />

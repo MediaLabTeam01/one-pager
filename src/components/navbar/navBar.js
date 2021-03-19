@@ -7,10 +7,10 @@ function NavBar() {
             <p className="team-name">BrainGem</p>
         </div>
         <div className="right-block">
-            <p className="navBarButton">Team</p>
-            <p className="navBarButton">Deliverables</p>
-            <p className="navBarButton">Concept</p>
-            <p className="navBarButton">Contact</p>
+            <a href="#about-team" className="navBarButton">Team</a>
+            <a href="#deliverable" className="navBarButton">Deliverables</a>
+            <a href="#concept" className="navBarButton">Concept</a>
+            <a href="#contact" className="navBarButton">Contact</a>
         </div>
       </div>
     );
