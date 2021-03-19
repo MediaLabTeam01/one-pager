@@ -22,7 +22,7 @@ function Deliverables() {
                   <div className="del-left">
                     <p className="question">Hoe kunnen we de mens en natuur samen vreedzaam laten leven door middel van een slimme oplossing?</p>
                     <h4 className="del-title">Enquete onderzoek</h4>
-                    <img className="theme" src={process.env.PUBLIC_URL + '/graph.png'} alt={'Deliverable'}/>
+                    <img className="graph" src={process.env.PUBLIC_URL + '/graph.png'} alt={'Deliverable'}/>
                 </div>
               </div>
               <DeliverableBlock title={'Design Principles'} image={'designprinciples.png'} />
