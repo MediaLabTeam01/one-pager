@@ -31,3 +31,38 @@ a:hover {
   height: 75%;
   display: block;
 }
+
+@font-face {
+  font-family: Avenir-Black;
+  src: url("/src/fonts/Avenir-Black.ttf");
+}
+
+@font-face {
+  font-family: Avenir-Heavy;
+  src: url("/src/fonts/Avenir-Heavy.ttf");
+}
+
+@font-face {
+  font-family: Avenir-Light;
+  src: url("/src/fonts/Avenir-Light.ttf");
+}
+
+@font-face {
+  font-family: AvenirLTS-Book;
+  src: url("/src/fonts/AvenirLTStd-Book.otf");
+}
+
+@font-face {
+  font-family: AvenirLTS-Medium;
+  src: url("/src/fonts/AvenirLTStd-Medium.otf");
+}
+
+@font-face {
+  font-family: AvenirLTS-Roman;
+  src: url("/src/fonts/AvenirLTStd-Roman.otf");
+}
+
+@font-face {
+  font-family: Bauhaus;
+  src: url("/src/fonts/Bauhaus93Regular.ttf");
+}

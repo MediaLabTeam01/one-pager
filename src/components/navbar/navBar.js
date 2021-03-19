@@ -6,6 +6,7 @@ import DeviceIdentifier from 'react-device-identifier';
 function NavBar() {
     return (
       <div className="navbar">
+        <img className="logo" src={process.env.PUBLIC_URL + '/logo.png'} alt={'BrainGem Logo'}/>
         <div className="left-block">
             <p className="team-name">BrainGem</p>
         </div>
