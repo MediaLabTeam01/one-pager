@@ -14,6 +14,7 @@ ReactDOM.render(
     <NavBar />
     <Header />
     <AboutTeamMembers />
+    <img className="divider-dash" src={process.env.PUBLIC_URL + '/dash-dark.png'} alt={'darkdash'}/>
     <Deliverables />
     <img className="divider-wave" src={process.env.PUBLIC_URL + '/wave_light.png'} alt={'lightwave'}/>
     <Concept />

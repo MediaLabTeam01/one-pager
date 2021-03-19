@@ -18,7 +18,7 @@ function NavBar() {
               <a href="#contact" className="navBarButton">Contact</a>
           </div>
         </DeviceIdentifier>
-        <DeviceIdentifier isMobile={true} isTablet={true}>
+        <DeviceIdentifier isMobile={true}>
             <Menu right={true} htmlClassName={"hamburger-menu"} >
                 <a href="#about-team" className="navBarButton">Team</a>
                 <a href="#deliverable" className="navBarButton">Deliverables</a>

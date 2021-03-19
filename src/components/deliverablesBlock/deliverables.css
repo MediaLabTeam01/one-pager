@@ -6,6 +6,8 @@
 }
 
 .del-title {
+  font-family: Avenir-Light;
+  font-size: 14pt;
   text-align: center;
   color: #e97c57;
 }
@@ -17,7 +19,7 @@
 
 .del {
   background-color: #a3d2b6;
-  height: 54vh;
+  height: 75vh;
   border-radius: 8pt;
   margin: auto;
   width: 75%;
@@ -31,10 +33,19 @@
   width: 100%;
   height: 100%;
 }
+
 @media only screen and (max-width: 600px) {
   .del-block {
     margin: auto;
     width: 100%;
     padding-bottom: 5vh;
+  }
+
+  .del {
+    background-color: #a3d2b6;
+    height: 50vh;
+    border-radius: 8pt;
+    margin: auto;
+    width: 90vw;
   }
 }
