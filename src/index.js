@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Helmet } from 'react-helmet'
 import './index.css';
 import AboutTeamMembers from './components/aboutTeamMembers/aboutTeamMembers'
 import NavBar from './components/navbar/navBar'
@@ -11,6 +12,10 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>BrainGem</title>
+    </Helmet>
     <NavBar />
     <Header />
     <AboutTeamMembers />

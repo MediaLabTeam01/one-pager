@@ -1,12 +1,13 @@
 import './deliverables.css';
 import DeliverableBlock from './deliverableBlock'
+import DeviceIdentifier from 'react-device-identifier';
 
 function Deliverables() {
     return (
       <div id="deliverable" className="deliv">
           <h3 className="deliv-title">Deliverables</h3>
             <div className="block-container">
-                <div className="del-block">
+                <div id="theme-block" className="del-block">
                   <h4 className="del-title">Opdracht van Living Labs Scheveningen:</h4>
                   <div className="del-left">
                     <p className="question">Hoe kan een slimme toepassing eruitzien, waarmee de leefomgeving en beleving van bewoners wordt verbeterd of verrijkt?</p>
@@ -15,14 +16,24 @@ function Deliverables() {
               </div>
               <DeliverableBlock title={'Inzichten desk- en fieldresearch'} image={'o-inzichten.png'} />
           </div>
+        
           <img className="divider-dash" src={process.env.PUBLIC_URL + '/dash-medium.png'} alt={'mediumdash'}/>
+
           <div className="block-container">
             <div className="del-block">
-                  <h4 className="del-title">Onwerpopgave</h4>
-                  <div className="del-left">
+                  <h4 className="del-title">Ontwerpopgave</h4>
+                  <div id="graph-del" className="del-left">
                     <p className="question">Hoe kunnen we de mens en natuur samen vreedzaam laten leven door middel van een slimme oplossing?</p>
-                    <h4 className="del-title">Enquete onderzoek</h4>
-                    <img className="graph" src={process.env.PUBLIC_URL + '/graph.png'} alt={'Deliverable'}/>
+                    <h4 id="graph-title" className="del-title">Enquete onderzoek</h4>
+                    <DeviceIdentifier isDesktop={true}>
+                        <img className="graph" src={process.env.PUBLIC_URL + '/graph.png'} alt={'Deliverable'}/>
+                    </DeviceIdentifier>
+                    <DeviceIdentifier isMobile={true}>
+                      <div className="graph-block">
+                          <img className="graph" src={process.env.PUBLIC_URL + '/graph1.png'} alt={'Deliverable'}/>
+                          <img className="graph" src={process.env.PUBLIC_URL + '/graph2.png'} alt={'Deliverable'}/>
+                      </div>
+                    </DeviceIdentifier>
                 </div>
               </div>
               <DeliverableBlock title={'Design Principles'} image={'designprinciples.png'} />
