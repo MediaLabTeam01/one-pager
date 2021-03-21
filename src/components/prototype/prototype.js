@@ -14,7 +14,8 @@ function Prototype() {
              text1={'De BinoculAR staat gericht naar een stuk natuur toe. Vervolgens projecteerd hij een dier die in dit gebied voorkomt'}
              text2={'Deze dieren kunnen net als de planten gescant worden voor verdere informatie'}
              text3={'Alleen de dieren kunnen weglopen.'}
-             text4={'Probeer het dier lang genoeg in het visier te houden om hem te scannen!'}/>
+             text4={'Probeer het dier lang genoeg in het visier te houden om hem te scannen!'}
+             text5={'Als dit is gelukt toont de BinoculAR verdere informatie over dit dier'}/>
         </div>
     );
   }
