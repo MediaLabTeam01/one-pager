@@ -29,23 +29,23 @@ function Scenario(props) {
                     <Carousel showStatus={false} showThumbs={false} showIndicators={false}>
                         <div>
                             <img className="proto-image-b" src={process.env.PUBLIC_URL + '/prototype/prototype_' + props.imagenr + '.jpeg'} alt={'Prototype'}/>
-                            <p className="description-text-b">{props.text1}</p>
+                            <p className="description-text-c">{props.text1}</p>
                         </div>
                         <div>
                             <img className="proto-image-b" src={process.env.PUBLIC_URL + '/prototype/prototype_' + (props.imagenr + 1) + '.jpeg'} alt={'Prototype'}/>
-                            <p className="description-text-b">{props.text2}</p>
+                            <p className="description-text-c">{props.text2}</p>
                         </div>
                         <div>
                             <img className="proto-image-b" src={process.env.PUBLIC_URL + '/prototype/prototype_' + (props.imagenr + 2) + '.jpeg'} alt={'Prototype'}/>
-                            <p className="description-text-b">{props.text3}</p>
+                            <p className="description-text-c">{props.text3}</p>
                         </div>
                         <div>
                             <img className="proto-image-b" src={process.env.PUBLIC_URL + '/prototype/prototype_' + (props.imagenr + 3) + '.jpeg'} alt={'Prototype'}/>
-                            <p className="description-text-b">{props.text4}</p>
+                            <p className="description-text-c">{props.text4}</p>
                         </div>
                         <div>
                             <img className="proto-image-b" src={process.env.PUBLIC_URL + '/prototype/prototype_' + (props.imagenr + 4) + '.jpeg'} alt={'Prototype'}/>
-                            <p className="description-text-b">{props.text5}</p>
+                            <p className="description-text-c">{props.text5}</p>
                         </div>
                     </Carousel>
                 </DeviceIdentifier>
@@ -74,19 +74,19 @@ function Scenario(props) {
                     <Carousel showStatus={false} showThumbs={false} showIndicators={false}>
                         <div>
                             <img className="proto-image-b" src={process.env.PUBLIC_URL + '/prototype/prototype_' + props.imagenr + '.jpeg'} alt={'Prototype'}/>
-                            <p className="description-text-b">{props.text1}</p>
+                            <p className="description-text-c">{props.text1}</p>
                         </div>
                         <div>
                             <img className="proto-image-b" src={process.env.PUBLIC_URL + '/prototype/prototype_' + (props.imagenr + 1) + '.jpeg'} alt={'Prototype'}/>
-                            <p className="description-text-b">{props.text2}</p>
+                            <p className="description-text-c">{props.text2}</p>
                         </div>
                         <div>
                             <img className="proto-image-b" src={process.env.PUBLIC_URL + '/prototype/prototype_' + (props.imagenr + 2) + '.jpeg'} alt={'Prototype'}/>
-                            <p className="description-text-b">{props.text3}</p>
+                            <p className="description-text-c">{props.text3}</p>
                         </div>
                         <div>
                             <img className="proto-image-b" src={process.env.PUBLIC_URL + '/prototype/prototype_' + (props.imagenr + 3) + '.jpeg'} alt={'Prototype'}/>
-                            <p className="description-text-b">{props.text4}</p>
+                            <p className="description-text-c">{props.text4}</p>
                         </div>
                     </Carousel>
                 </DeviceIdentifier>

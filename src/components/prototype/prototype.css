@@ -39,7 +39,7 @@
 }
 
 .description-text {
-  width: 10em;
+  width: 10.2vw;
   vertical-align: text-top;
   text-align: center;
   padding-left: 4.5vw;
@@ -50,12 +50,21 @@
 }
 
 .description-text-b {
-  width: 10em;
+  width: 10.2vw;
   vertical-align: text-top;
   text-align: center;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
   display: inline-block;
+  font-family: AvenirLTS-Roman;
+  color: #eff6ef;
+}
+
+.description-text-c {
+  vertical-align: text-top;
+  text-align: center;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
   font-family: AvenirLTS-Roman;
   color: #eff6ef;
 }
@@ -86,8 +95,28 @@
   max-height: 80%;
 }
 
-.carousel {
-  background-color: #a3d2b6;
-  border-radius: 8pt;
-  padding-top: 5vh;
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .description-text {
+    width: 10em;
+    vertical-align: text-top;
+    text-align: center;
+    padding-left: 4.5vw;
+    padding-right: 4.5vw;
+    display: inline-block;
+    font-size: 11pt;
+    font-family: AvenirLTS-Roman;
+    color: #eff6ef;
+  }
+
+  .description-text-b {
+    width: 10em;
+    vertical-align: text-top;
+    text-align: center;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    display: inline-block;
+    font-family: AvenirLTS-Roman;
+    font-size: 11pt;
+    color: #eff6ef;
+  }
 }
