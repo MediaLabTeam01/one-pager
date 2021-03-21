@@ -29,6 +29,13 @@
   height: 25%;
 }
 
+.explanation {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+}
+
 @media only screen and (max-width: 600px) {
   .concepts {
     padding-top: 5vh;
