@@ -13,6 +13,7 @@
 .prototype-scenario {
   padding-bottom: 5vh;
 }
+
 .scenario-title {
   text-align: center;
   font-family: AvenirLTS-Roman;
@@ -83,4 +84,10 @@
   padding-top: 2%;
   max-width: 80%;
   max-height: 80%;
+}
+
+.carousel {
+  background-color: #a3d2b6;
+  border-radius: 8pt;
+  padding-top: 5vh;
 }

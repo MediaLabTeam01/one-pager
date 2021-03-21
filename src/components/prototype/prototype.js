@@ -4,7 +4,7 @@ import Scenario from './protoScenario'
 function Prototype() {
     return (
         <div className="prototype">
-             <h3 className="proto-title">Prototype</h3>
+             <h3 className="proto-title">Het prototype</h3>
              <Scenario title={'Scenario A'} imagenr={1} 
              text1={'De BinoculAR staat gericht naar een stuk natuur toe'}
              text2={'Als je de BinoculAR gebruikt kan je rondkijken, je zit aan het stipje waar je precies naar kijkt'}
