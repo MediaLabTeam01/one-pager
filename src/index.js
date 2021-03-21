@@ -8,6 +8,7 @@ import Deliverables from './components/deliverablesBlock/deliverables'
 import Concept from './components/conceptBlock/conceptBlock'
 import Contact from './components/contact/contactBlock'
 import Header from './components/header/header'
+import Prototype from './components/prototype/prototype'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -23,6 +24,7 @@ ReactDOM.render(
     <Deliverables />
     <img className="divider-wave" src={process.env.PUBLIC_URL + '/dividers/wave_light.png'} alt={'lightwave'}/>
     <Concept />
+    <Prototype />
     <img className="divider-wave" src={process.env.PUBLIC_URL + '/dividers/wave_dark.png'} alt={'darkwave'}/>
     <Contact />
   </React.StrictMode>,

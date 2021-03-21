@@ -1,0 +1,62 @@
+.prototype {
+  background-color: #396c60;
+}
+
+.proto-title {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 5vh;
+  color: #eff6ef;
+  margin-bottom: 0;
+}
+
+.prototype-scenario {
+  padding-bottom: 5vh;
+}
+.scenario-title {
+  text-align: center;
+  font-family: AvenirLTS-Roman;
+  font-size: 22pt;
+  color: #eff6ef;
+}
+
+.scenario-row {
+  background-color: #a3d2b6;
+  height: 30vh;
+  border-radius: 8pt;
+  margin: auto;
+  width: 80vw;
+}
+
+.text-row {
+  flex-direction: row;
+  margin-top: 0;
+  height: 20vh;
+  border-radius: 8pt;
+  margin: auto;
+  width: 80vw;
+}
+
+.description-text {
+  width: 10em;
+  vertical-align: text-top;
+  text-align: center;
+  padding-left: 4.5vw;
+  padding-right: 4.5vw;
+  display: inline-block;
+  font-family: AvenirLTS-Roman;
+  color: #eff6ef;
+}
+
+.proto-image {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  max-width: 80%;
+  max-height: 80%;
+}
