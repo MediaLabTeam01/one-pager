@@ -19,11 +19,11 @@ ReactDOM.render(
     <NavBar />
     <Header />
     <AboutTeamMembers />
-    <img className="divider-dash" src={process.env.PUBLIC_URL + '/dash-dark.png'} alt={'darkdash'}/>
+    <img className="divider-dash" src={process.env.PUBLIC_URL + '/dividers/dash-dark.png'} alt={'darkdash'}/>
     <Deliverables />
-    <img className="divider-wave" src={process.env.PUBLIC_URL + '/wave_light.png'} alt={'lightwave'}/>
+    <img className="divider-wave" src={process.env.PUBLIC_URL + '/dividers/wave_light.png'} alt={'lightwave'}/>
     <Concept />
-    <img className="divider-wave" src={process.env.PUBLIC_URL + '/wave_dark.png'} alt={'darkwave'}/>
+    <img className="divider-wave" src={process.env.PUBLIC_URL + '/dividers/wave_dark.png'} alt={'darkwave'}/>
     <Contact />
   </React.StrictMode>,
   document.getElementById('root')
