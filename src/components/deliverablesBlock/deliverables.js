@@ -5,7 +5,14 @@ import DeviceIdentifier from 'react-device-identifier';
 function Deliverables() {
     return (
       <div id="deliverable" className="deliv">
-          <h3 className="deliv-title">Onderzoek</h3>
+          <h3 className="deliv-title">Uitdaging</h3>
+          <p className="challenge">Het natuurgebied rondom Scheveningen is uniek en het beschermen waard.
+          Om de bezoekers van de duingebieden rond Scheveningen daar bewust van te maken zijn wij een concept gaan ontwikkelen.
+          <br></br>
+          <br></br>
+          Hiervoor zijn we eerst onderzoek gaan doen. Zo zijn we het veld in gegaan, hebben we enquetes uitgezet en hebben we interviews met experts gehouden.
+          Hieruit kwamen de onderstaande inzichten en design principles; </p>
+          <h3 className="deliv-title">Onderzoek en Insights</h3>
             <div className="block-container">
                 <div id="theme-block" className="del-block">
                   <h4 className="del-title">Opdracht van Living Labs Scheveningen:</h4>
