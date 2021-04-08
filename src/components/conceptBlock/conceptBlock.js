@@ -18,7 +18,9 @@ function Concept() {
                   voor informatie
                 </p>
               </div>
-              <div className="c-blocks"> <p>Beeldmateriaal</p> </div>
+              <div className="c-blocks"> 
+                <img className="c-image" src={process.env.PUBLIC_URL + '/concept/conceptImage.jpg'} alt={'Deliverable'}/>
+              </div>
             </div>
           </div>
       </div>

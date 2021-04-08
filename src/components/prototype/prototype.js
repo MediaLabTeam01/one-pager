@@ -16,6 +16,12 @@ function Prototype() {
              text3={'Alleen de dieren kunnen weglopen.'}
              text4={'Probeer het dier lang genoeg in het visier te houden om hem te scannen!'}
              text5={'Als dit is gelukt toont de BinoculAR verdere informatie over dit dier'}/>
+             <h3 className="vid-title">Het prototype in actie!</h3>
+             <div className="mvp-vid">
+                <video src={process.env.PUBLIC_URL + '/prototype/mvp.mp4'} autoPlay muted>
+                Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
     );
   }

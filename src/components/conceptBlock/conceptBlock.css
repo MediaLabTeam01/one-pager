@@ -36,6 +36,19 @@
   width: 40vw;
 }
 
+.c-image {
+  width: auto;
+  height: auto;
+  max-width: 75%;
+  max-height: 75%;
+}
+
+@media only screen and (max-width: 320px) {
+  .c-block {
+    height: 170vh;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .concepts {
     padding-top: 5vh;
@@ -54,5 +67,9 @@
 
   .c-content {
     height: 100vh;
+  }
+
+  .c-image {
+    margin-bottom: 5vh;
   }
 }
