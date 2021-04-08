@@ -5,6 +5,21 @@
 
 .con-content {
   height: 35vh;
+  text-align: center;
+  font-family: AvenirLTS-Roman;
+  font-size: larger;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.moreLink {
+  color: black;
+  background-color: #e97c57;
+  font-family: Avenir-Heavy;
+  padding: 8px;
+  border-radius: 25px;
+  text-decoration: none;
 }
 
 .con-block {

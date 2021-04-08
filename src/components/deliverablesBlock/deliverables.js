@@ -5,7 +5,7 @@ import DeviceIdentifier from 'react-device-identifier';
 function Deliverables() {
     return (
       <div id="deliverable" className="deliv">
-          <h3 className="deliv-title">Deliverables</h3>
+          <h3 className="deliv-title">Onderzoek</h3>
             <div className="block-container">
                 <div id="theme-block" className="del-block">
                   <h4 className="del-title">Opdracht van Living Labs Scheveningen:</h4>

@@ -15,7 +15,7 @@ function NavBar() {
               <a href="#about-team" className="navBarButton">Team</a>
               <a href="#deliverable" className="navBarButton">Deliverables</a>
               <a href="#concept" className="navBarButton">Concept</a>
-              <a href="#contact" className="navBarButton">Contact</a>
+              <a href="#contact" className="navBarButton">Meer</a>
           </div>
         </DeviceIdentifier>
         <DeviceIdentifier isMobile={true}>
@@ -23,7 +23,7 @@ function NavBar() {
                 <a href="#about-team" className="navBarButton">Team</a>
                 <a href="#deliverable" className="navBarButton">Deliverables</a>
                 <a href="#concept" className="navBarButton">Concept</a>
-                <a href="#contact" className="navBarButton">Contact</a>
+                <a href="#contact" className="navBarButton">Meer</a>
             </Menu>
         </DeviceIdentifier>
       </div>

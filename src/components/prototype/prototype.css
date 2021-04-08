@@ -129,6 +129,13 @@ video {
     color: #eff6ef;
   }
 
+  .mvp-vid {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
   .description-text-b {
     width: 10em;
     vertical-align: text-top;
