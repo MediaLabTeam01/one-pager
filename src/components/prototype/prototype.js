@@ -18,7 +18,7 @@ function Prototype() {
              text5={'Als dit is gelukt toont de VerderKijker verdere informatie over dit dier'}/>
              <h3 className="vid-title">Het prototype in actie!</h3>
              <div className="mvp-vid">
-                <video src={process.env.PUBLIC_URL + '/prototype/mvp.mp4'} autoPlay muted>
+                <video src={process.env.PUBLIC_URL + '/prototype/mvp.mp4'} autoPlay loop muted playsInline>
                 Your browser does not support the video tag.
                 </video>
             </div>
